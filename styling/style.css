@@ -10,20 +10,21 @@
 
 h1 {
     text-align: center;
-    padding: 40px ;
+    padding: 20px ;
     font-family: var(--heading-font);
     font-size: 50px;
 }
 
 img {
     max-width: 500px;
+    max-height: 600px;
     border-radius: 100px;
     padding: 0 30px;
     outline: solid 3px #cc7722;
 }
 
 p {
-    padding: 0 30px;
+    padding: 20px 30px;
     text-align: center;
     font-family: var(--paragraph-font);
 }
