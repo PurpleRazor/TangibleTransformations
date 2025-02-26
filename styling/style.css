@@ -57,3 +57,10 @@ footer {
 :hover .bylink {
   text-decoration: underline;
 }
+
+@media (max-width: 960px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}
