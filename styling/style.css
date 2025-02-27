@@ -59,7 +59,7 @@ footer {
 }
 
 @media (max-width: 960px) {
-  .grid {
+  .main {
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
