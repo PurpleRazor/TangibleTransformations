@@ -1,14 +1,18 @@
 :root {
     --heading-font: "Kaushan Script", serif;
     --paragraph-font: "delius", serif;
-    --basic-text-colour: rgba(165, 42, 42, 0.89);
-    --acent-colour: #cc7722;
+    --basic-text-colour: #40211F;
+    --acent-colour: #cab061;
     --background-colour:#e9ead9;
   }
 
   body {
     background-color: var(--background-colour);
-    margin: 0;
+    margin: 0 auto;
+  }
+
+  h1, p {
+    color: var(--basic-text-colour);
   }
 
 h1 {
@@ -22,12 +26,14 @@ img {
     max-width: 500px;
     max-height: 600px;
     border-radius: 100px;
-    padding: 0 30px;
+    padding: 30px 30px;
+    margin: 30px;
     outline: solid 3px var(--acent-colour);
 }
 
 p {
     padding: 20px 30px;
+    margin-top: 80px;
     text-align: center;
     font-family: var(--paragraph-font);
 }
@@ -41,28 +47,42 @@ p {
 
 footer {
     padding: 20px 0;
-    background-image: url(../images/beachfooter.jpg);
+    background-color: var(--basic-text-colour);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .byline {
-  color: black;
-  opacity: 0.8;
+  color: var(--background-colour);
   text-align: center;
 
 }
 .bylink {
   text-decoration: none;
-  color: black;
+  color: var(--background-colour);
 }
 
 :hover .bylink {
   text-decoration: underline;
 }
 
-@media (min-width: 600px) {
+.social-link-wrapper {
+  font-size: 40px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.social-link-wrapper a {
+  color: var(--background-colour);
+}
+
+@media (min-width: 1000px) {
   .main {
     grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    text-align: center;
+    max-width: 100%;
   }
 }
