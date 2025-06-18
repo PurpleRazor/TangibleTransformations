@@ -2,15 +2,15 @@
     --heading-font: "Kaushan Script", serif;
     --paragraph-font: "delius", serif;
     --basic-text-colour: #40211F;
-    --acent-colour: #cab061;
-    --background-colour:#e9ead9;
+    --acent-colour: #40211F;
+    --background-colour:#fbfd9b;
     --glow-colour: white;
   }
 
   .glow-text {
-    text-shadow: 0 0 5px #fff,   /* Inner glow */
-                 0 0 10px #fff,  /* Medium glow */
-                 0 0 20px #ffff, /* Outer glow with color */
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 20px #ffff,
                  0 0 30px #ffff,
                  0 0 40px #ffff,
                  0 0 50px #ffff;
@@ -144,5 +144,10 @@ footer {
   h1 {
     text-align: center;
     max-width: 100%;
+  }
+  .element1 {
+    text-align: center;
+    max-width: 100%;
+
   }
 }
