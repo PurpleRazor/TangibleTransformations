@@ -139,6 +139,10 @@ footer {
 }
 
 @media (min-width: 1000px) {
+
+  header {
+    max-width: 100%;
+  }
   .main {
     grid-template-columns: repeat(2, 1fr);
   }
